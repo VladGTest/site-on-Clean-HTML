@@ -5,6 +5,7 @@
 }
 
 .container{
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -129,7 +130,7 @@ h2.title{
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header{
+.waiting .waiting_header, .finish .finish_header{
     color: #252525;
     text-align: center;
     font-size: 30px;
@@ -138,7 +139,11 @@ h2.title{
     text-transform: uppercase; 
 }
 
-.waiting .waiting_divider{
+.finish .finish_header{
+    color:white;
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
     width: 217px;
     height: 4px;
     background-color: #F9BF3B;
@@ -179,6 +184,46 @@ h2.title{
 }
 
 
-.optimiztion{
+.optimization{
     min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header{
+
+    margin-left:391px;
+    color: #299cbd;
+    font-size: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text{
+    margin-left:391px;
+    margin-top: 35px;
+    color: #4A4A4A;
+    font-size: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; 
+}
+
+.optimization .optimization_text span{
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top:-54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url("../img/bg/second_bg.png") center center/cover no-repeat;
 }
