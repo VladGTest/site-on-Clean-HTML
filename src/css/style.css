@@ -40,11 +40,8 @@ h1{
 }
 
 .title{
-   
     color: #F9BF3B;
     font-size: 41px;
-    font-family: "Roboto - Black";
-    font-style: normal;
     font-weight: 900;
     line-height: 41px;
     text-transform: uppercase; 
@@ -55,11 +52,14 @@ h2.title{
     margin-top: 30px;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .simple .title_big{
     margin-top: 13px;
     color: #FFF;
     font-size: 80px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     text-align: center;
@@ -71,7 +71,6 @@ h2.title{
     margin-top: 23px;
     color: #FFF;
     font-size: 21px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     line-height: 28px;
@@ -80,11 +79,10 @@ h2.title{
 
 .promo .promo_text span{
     color: #F9BF3B;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
-.promo .promo_btn{
+.promo .promo_btn, .bonus_gift .gift_btn{
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -96,7 +94,6 @@ h2.title{
 
     color: #FFF;
     font-size: 21px;
-    font-family: Roboto Condensed;
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase; 
@@ -111,7 +108,6 @@ h2.title{
 .more .more_text{
     color: #FFF;
     font-size: 15px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 100;
     text-transform: uppercase; 
@@ -134,7 +130,6 @@ h2.title{
     color: #252525;
     text-align: center;
     font-size: 30px;
-    font-family: Roboto;
     font-weight: 400;
     text-transform: uppercase; 
 }
@@ -156,7 +151,6 @@ h2.title{
     color: #4A4A4A;
     text-align: center;
     font-size: 23px;
-    font-family: Roboto;
     font-weight: 400;
 }
 
@@ -178,7 +172,6 @@ h2.title{
 .waiting .waiting_wrapper .waiting_item .waiting_descr{
     color: #4A4A4A;
     font-size: 15px;
-    font-family: Roboto;
     font-weight: 300;
     line-height: 21px; 
 }
@@ -194,7 +187,6 @@ h2.title{
     margin-left:391px;
     color: #299cbd;
     font-size: 29px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
@@ -205,7 +197,6 @@ h2.title{
     margin-top: 35px;
     color: #4A4A4A;
     font-size: 17px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     line-height: 27px; 
@@ -226,4 +217,129 @@ h2.title{
     min-height: 447px;
     padding: 86px 0 79px 0;
     background: url("../img/bg/second_bg.png") center center/cover no-repeat;
+}
+
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    text-align:center;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px; 
+}
+
+.bonus_gift{
+    min-height:550px;
+    padding: 86px 0 79px 0;
+
+}
+
+.bonus_gift .gift_img{
+    width: 100%;
+}
+
+.bonus_gift .gift_img img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.bonus_gift .gift_descr{
+    margin-top: 41px;
+    color: #252525;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px; 
+}
+
+.first_webinar{
+    min-height:447px;
+    padding: 86px 0 79px 0;
+}
+
+.first_webinar .img_first_web_img{
+    width: 100%;
+}
+
+.first_webinar .img_first_web_img img{
+    display:block;
+    margin: 0 auto;
+}
+
+.first_webinar .webinar_descr{
+    text-align: center;
+}
+
+.first_webinar .webinar_descr .webinar_header{
+    margin-top: 41px;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase; 
+}
+
+.first_webinar .webinar_descr .webinar_subheader{
+    margin-top: 31px;
+    color: #299CBD;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase; 
+}
+
+.first_webinar .webinar_descr p{
+    margin-top: 31px;
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+
+.footer{
+    min-height: 169px;
+    padding: 86px 0 79px 0;
+    background-color:#000; 
+    color: #888;
+    text-align: center;
+}
+
+.footer .support_refs{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.footer .support_refs a{
+    color: #888;
 }
